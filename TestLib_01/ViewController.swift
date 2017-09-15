@@ -10,12 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var myDouble: Double?
+    public static var myDouble: Double = 10
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        myDouble = 10
         let fantasticview = FantasticView(frame: self.view.bounds)
         
         self.view.addSubview(fantasticview)
