@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FC47B921F6BD76E00DD57D7 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC47B911F6BD76E00DD57D7 /* MyClass.swift */; };
 		3FD282521F6BBCD000AAF0EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD282511F6BBCD000AAF0EF /* AppDelegate.swift */; };
 		3FD282541F6BBCD000AAF0EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD282531F6BBCD000AAF0EF /* ViewController.swift */; };
 		3FD282571F6BBCD000AAF0EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FD282551F6BBCD000AAF0EF /* Main.storyboard */; };
 		3FD282591F6BBCD000AAF0EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FD282581F6BBCD000AAF0EF /* Assets.xcassets */; };
 		3FD2825C1F6BBCD000AAF0EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FD2825A1F6BBCD000AAF0EF /* LaunchScreen.storyboard */; };
-		3FD282671F6BBCD000AAF0EF /* TestLib_01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD282661F6BBCD000AAF0EF /* TestLib_01Tests.swift */; };
-		3FD282721F6BBCD000AAF0EF /* TestLib_01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD282711F6BBCD000AAF0EF /* TestLib_01UITests.swift */; };
 		3FD282801F6BBE1B00AAF0EF /* FantasticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD2827F1F6BBE1B00AAF0EF /* FantasticView.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3FC47B911F6BD76E00DD57D7 /* MyClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
 		3FD2824E1F6BBCD000AAF0EF /* TestLib_01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestLib_01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD282511F6BBCD000AAF0EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FD282531F6BBCD000AAF0EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,11 +43,7 @@
 		3FD2825B1F6BBCD000AAF0EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FD2825D1F6BBCD000AAF0EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FD282621F6BBCD000AAF0EF /* TestLib_01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestLib_01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FD282661F6BBCD000AAF0EF /* TestLib_01Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLib_01Tests.swift; sourceTree = "<group>"; };
-		3FD282681F6BBCD000AAF0EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FD2826D1F6BBCD000AAF0EF /* TestLib_01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestLib_01UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FD282711F6BBCD000AAF0EF /* TestLib_01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLib_01UITests.swift; sourceTree = "<group>"; };
-		3FD282731F6BBCD000AAF0EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FD2827F1F6BBE1B00AAF0EF /* FantasticView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FantasticView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				3FD282501F6BBCD000AAF0EF /* TestLib_01 */,
-				3FD282651F6BBCD000AAF0EF /* TestLib_01Tests */,
-				3FD282701F6BBCD000AAF0EF /* TestLib_01UITests */,
 				3FD2824F1F6BBCD000AAF0EF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,26 +100,9 @@
 				3FD2825A1F6BBCD000AAF0EF /* LaunchScreen.storyboard */,
 				3FD2825D1F6BBCD000AAF0EF /* Info.plist */,
 				3FD2827F1F6BBE1B00AAF0EF /* FantasticView.swift */,
+				3FC47B911F6BD76E00DD57D7 /* MyClass.swift */,
 			);
 			path = TestLib_01;
-			sourceTree = "<group>";
-		};
-		3FD282651F6BBCD000AAF0EF /* TestLib_01Tests */ = {
-			isa = PBXGroup;
-			children = (
-				3FD282661F6BBCD000AAF0EF /* TestLib_01Tests.swift */,
-				3FD282681F6BBCD000AAF0EF /* Info.plist */,
-			);
-			path = TestLib_01Tests;
-			sourceTree = "<group>";
-		};
-		3FD282701F6BBCD000AAF0EF /* TestLib_01UITests */ = {
-			isa = PBXGroup;
-			children = (
-				3FD282711F6BBCD000AAF0EF /* TestLib_01UITests.swift */,
-				3FD282731F6BBCD000AAF0EF /* Info.plist */,
-			);
-			path = TestLib_01UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FC47B921F6BD76E00DD57D7 /* MyClass.swift in Sources */,
 				3FD282541F6BBCD000AAF0EF /* ViewController.swift in Sources */,
 				3FD282521F6BBCD000AAF0EF /* AppDelegate.swift in Sources */,
 				3FD282801F6BBE1B00AAF0EF /* FantasticView.swift in Sources */,
@@ -272,7 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FD282671F6BBCD000AAF0EF /* TestLib_01Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +257,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FD282721F6BBCD000AAF0EF /* TestLib_01UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +487,7 @@
 				3FD282781F6BBCD000AAF0EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FD282791F6BBCD000AAF0EF /* Build configuration list for PBXNativeTarget "TestLib_01Tests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +496,7 @@
 				3FD2827B1F6BBCD000AAF0EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FD2827C1F6BBCD000AAF0EF /* Build configuration list for PBXNativeTarget "TestLib_01UITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +505,7 @@
 				3FD2827E1F6BBCD000AAF0EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

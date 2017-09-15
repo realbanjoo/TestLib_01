@@ -10,8 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    public static var myDouble: Double = 10
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
